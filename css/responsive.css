@@ -1,0 +1,126 @@
+@media screen and (min-width: 660px) {
+  /**********************************
+  HEADER
+  ***********************************/
+
+	nav {
+		background: none;
+		float: right;
+		width: 45%;
+		margin-right: 5%;
+	}
+
+	#logo {
+		float: left;
+		text-align: left;
+		width: 45%;
+		margin-left: 5%;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	
+	nav ul li {
+	display: inline-block;
+	margin-top: 5px;
+	padding-right: 10px;
+	max-width: 8%;
+	padding-bottom: 20px;
+}
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 0.825em;
+	}
+
+	header {
+		border-bottom: 8px solid #2e4d64;
+	}
+
+	/**********************************
+ 	 PAGE: PORTFOLIO
+  	***********************************/
+  
+  .gallery li {
+    width: 28.33333%;
+ }
+
+ .gallery li:nth-child(3) {
+    clear: none;
+  }
+
+ .gallery li:nth-child(4) {
+    clear: left;
+  }
+
+.gallery li a {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.gallery li a p {
+	margin-bottom: 2%;
+	padding: 5%;
+	font-size: .8em;	
+}
+
+/**********************************
+   Footer
+ ***********************************/
+  
+footer {  
+	position: fixed;
+	bottom: 0;
+}
+
+#emptyspace {
+	width: 100%;
+	height: 200px;
+}
+
+	/**********************************
+ 	 Bottom Nav-Bar
+  	***********************************/
+.bottom_nav ul li {
+	display: inline-block;
+	width: 20%;
+	margin: 2%;
+}
+.bottom_nav ul li p {
+	padding: 10px;
+	font-size: .8em;
+	margin: 0;
+}
+
+	/**********************************
+ 	 About Me Page
+  	***********************************/
+
+.hobbies li {
+	width: 40%;
+	margin: 2% 5%;
+	float: left;
+}
+
+.hobbies li:nth-child(3) {
+    clear: left;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
